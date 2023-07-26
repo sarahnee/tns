@@ -1,0 +1,139 @@
+
+    body{
+        color: #fff0e3;
+        font-size: 150%;
+        background-color: #7acab7;
+        background-image: url(websitebackground.png);
+        background-repeat:repeat-x;
+        font-family: "Varela Round", sans-serif;
+        margin: 0 10%;
+        text-align: center;   }
+    header{
+margin-top: 260px;
+
+}
+.center{
+   
+}
+nav {
+    font-family: "Concert One", sans-serif;
+     font-size:150%;
+     color: #fff0e3;
+    }
+ul {
+    list-style-type: none;
+    display:flex;
+    justify-content:space-evenly;
+    }
+li{
+    display: inline;
+    padding: 16px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .row {
+   
+    display: flex;
+
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+ 
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+h1 {
+    text-align: center;
+    font-size: 500%;
+font-family: "Caprasimo", serif;
+font-weight: bold;
+color: #fff0e3;
+text-transform: uppercase;
+margin-top: 10px;
+margin-bottom: 0;
+border-bottom: 10px solid #f49cb1;
+
+}
+h2{
+    text-align: center;
+    font-size: 200%;
+font-family: "Caprasimo", serif;
+font-weight: bold;
+color: #fff0e3;
+text-transform: uppercase;
+margin-top: 10px;
+margin-bottom: 0;
+}
+dt{
+    font-size: 1.5em;
+}
+dd{
+    color: #f7da7c;
+}
+h3{
+    text-align: center;
+    font-size: 2em;
+    font-family: "Concert One", Sans-serif;
+    color:#fff0e3;
+    margin-bottom: 0;
+
+}
+a:link{
+    color:#fff0e3
+}
+a:hover{
+    color: #f49cb1;
+
+    }
+a:visited{
+    color:#f7da7c
+}
+footer {
+    font: 1.5em sans-serif;
+    font-size: 65%;
+    border-top: 6px solid #f49cb1;
+    text-align: center;
+    padding-top: 1em;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-left: .5em;
+    margin-left: .5em;
+}
+small {
+    font:.5em sans-serif;
+	color: #fff0e3;
+}
